@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             textView.text = foodSeller.getFoodNames()
+            textView2.text = foodSeller.getVendorName()
         }
     }
 }
